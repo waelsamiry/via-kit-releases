@@ -1,0 +1,20 @@
+{
+    "version":  "3.28.1",
+    "date":  "2026-11-08",
+    "file":  "releases/via-kit-3.28.1.zip",
+    "sha256":  "a665063a972d1405bda4a9267e093601740282ec1fa0aa5be5827141b459a4a7",
+    "size":  349558,
+    "notes":  [
+                  "Update test release. Settings › Updates shows where updates come from (github.com/waelsamiry/via-kit-releases).",
+                  "A file named UPDATE_TEST in the kit folder lets the updater really install on a developer PC (normally a .git folder = notify only). .git is never touched; make_releas..."
+              ],
+    "after":  [
+
+              ],
+    "remove":  [
+                   "js/license.js",
+                   "jsx/license.jsx",
+                   "reset_license.bat",
+                   "generate_license.html"
+               ]
+}
