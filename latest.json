@@ -2,8 +2,8 @@
     "version":  "3.28.3",
     "date":  "2026-11-09",
     "file":  "releases/via-kit-3.28.3.zip",
-    "sha256":  "260dc9386206fe4e4d0e4f31bbcd6cfe11a7242ac19fd5d368835d84d25899ab",
-    "size":  352133,
+    "sha256":  "dae55a23cff76498ac03d4a66a25320b2461217c77a70ceaaab2359a1b5f4c49",
+    "size":  351803,
     "notes":  [
                   "Update did nothing on a team PC (Wael: after \"Ready… close After Effects\" — closed and reopened AE, nothing happened). The installer was a CMD window started from the ...",
                   "PCs still on 3.28.0/3.28.1 have the old installer: once, after clicking Update and closing AE, double-click %TEMP%\\via-update\\via_update.bat (or install 3.28.3 from th..."
