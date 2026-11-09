@@ -1,12 +1,13 @@
 {
-    "version":  "3.28.3",
+    "version":  "3.28.4",
     "date":  "2026-11-09",
-    "file":  "releases/via-kit-3.28.3.zip",
-    "sha256":  "dae55a23cff76498ac03d4a66a25320b2461217c77a70ceaaab2359a1b5f4c49",
-    "size":  351803,
+    "file":  "releases/via-kit-3.28.4.zip",
+    "sha256":  "708356b4e9ea7db31a712acfb88401e8c47687ce9f0180fdaa41dc4c4877ba57",
+    "size":  351935,
     "notes":  [
-                  "Update did nothing on a team PC (Wael: after \"Ready… close After Effects\" — closed and reopened AE, nothing happened). The installer was a CMD window started from the ...",
-                  "PCs still on 3.28.0/3.28.1 have the old installer: once, after clicking Update and closing AE, double-click %TEMP%\\via-update\\via_update.bat (or install 3.28.3 from th..."
+                  "Settings › Updates always says where you stand: \"✓ This is the latest version\" (or the Update button), plus \"Last checked\". Check for updates when up to date: \"✓ This ...",
+                  "One-file installer install_via_kit.bat (root of github.com/waelsamiry/via-kit-releases; source tools/install_via_kit.bat + tools/install.ps1, copied there by make_rele...",
+                  "Update banner buttons are wired from the banner itself (robust); the whole update path was run end to end in Node against the live 3.28.3 release (download → SHA-256 →..."
               ],
     "after":  [
 
